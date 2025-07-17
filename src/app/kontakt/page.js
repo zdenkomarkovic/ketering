@@ -1,36 +1,36 @@
-'use client';
+"use client";
 
-import { useState } from 'react';
+import { useState } from "react";
 
 export default function Kontakt() {
   const [formData, setFormData] = useState({
-    ime: '',
-    firma: '',
-    email: '',
-    telefon: '',
-    brojZaposlenih: '',
-    poruka: ''
+    ime: "",
+    firma: "",
+    email: "",
+    telefon: "",
+    brojZaposlenih: "",
+    poruka: "",
   });
 
-  const handleChange = (e: any) => {
+  const handleChange = (e) => {
     const { name, value } = e.target;
-    setFormData(prev => ({
+    setFormData((prev) => ({
       ...prev,
-      [name]: value
+      [name]: value,
     }));
   };
 
-  const handleSubmit = (e: any) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
     // Ovde bi se implementirala logika za slanje email-a
-    alert('Hvala vam na poruci! Kontaktiraćemo vas uskoro.');
+    alert("Hvala vam na poruci! Kontaktiraćemo vas uskoro.");
     setFormData({
-      ime: '',
-      firma: '',
-      email: '',
-      telefon: '',
-      brojZaposlenih: '',
-      poruka: ''
+      ime: "",
+      firma: "",
+      email: "",
+      telefon: "",
+      brojZaposlenih: "",
+      poruka: "",
     });
   };
 
@@ -60,7 +60,10 @@ export default function Kontakt() {
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
-                    <label htmlFor="ime" className="block text-sm font-medium text-gray-700 mb-2">
+                    <label
+                      htmlFor="ime"
+                      className="block text-sm font-medium text-gray-700 mb-2"
+                    >
                       Ime i prezime *
                     </label>
                     <input
@@ -74,7 +77,10 @@ export default function Kontakt() {
                     />
                   </div>
                   <div>
-                    <label htmlFor="firma" className="block text-sm font-medium text-gray-700 mb-2">
+                    <label
+                      htmlFor="firma"
+                      className="block text-sm font-medium text-gray-700 mb-2"
+                    >
                       Naziv firme *
                     </label>
                     <input
@@ -91,7 +97,10 @@ export default function Kontakt() {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
-                    <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
+                    <label
+                      htmlFor="email"
+                      className="block text-sm font-medium text-gray-700 mb-2"
+                    >
                       Email adresa *
                     </label>
                     <input
@@ -105,7 +114,10 @@ export default function Kontakt() {
                     />
                   </div>
                   <div>
-                    <label htmlFor="telefon" className="block text-sm font-medium text-gray-700 mb-2">
+                    <label
+                      htmlFor="telefon"
+                      className="block text-sm font-medium text-gray-700 mb-2"
+                    >
                       Telefon *
                     </label>
                     <input
@@ -121,7 +133,10 @@ export default function Kontakt() {
                 </div>
 
                 <div>
-                  <label htmlFor="brojZaposlenih" className="block text-sm font-medium text-gray-700 mb-2">
+                  <label
+                    htmlFor="brojZaposlenih"
+                    className="block text-sm font-medium text-gray-700 mb-2"
+                  >
                     Broj zaposlenih koji treba da se hrane
                   </label>
                   <select
@@ -141,7 +156,10 @@ export default function Kontakt() {
                 </div>
 
                 <div>
-                  <label htmlFor="poruka" className="block text-sm font-medium text-gray-700 mb-2">
+                  <label
+                    htmlFor="poruka"
+                    className="block text-sm font-medium text-gray-700 mb-2"
+                  >
                     Poruka
                   </label>
                   <textarea
@@ -169,7 +187,7 @@ export default function Kontakt() {
               <h2 className="text-3xl font-bold bg-gradient-to-r from-[#3b0a0a] via-[#a83232] to-[#fff] bg-clip-text text-transparent drop-shadow-lg mb-8">
                 Kontakt Informacije
               </h2>
-              
+
               <div className="space-y-8">
                 <div className="bg-orange-50 p-6 rounded-lg">
                   <h3 className="text-xl font-semibold bg-gradient-to-r from-[#3b0a0a] via-[#a83232] to-[#fff] bg-clip-text text-transparent drop-shadow mb-4">
@@ -177,19 +195,29 @@ export default function Kontakt() {
                   </h3>
                   <div className="space-y-3 text-gray-700">
                     <p>
-                      <strong>Adresa:</strong><br />
-                      Janka Kostića 26<br />
+                      <strong>Adresa:</strong>
+                      <br />
+                      Janka Kostića 26
+                      <br />
                       Aranđelovac
                     </p>
                     <p>
-                      <strong>Telefon:</strong><br />
-                      <a href="tel:0603044421" className="text-orange-600 hover:text-orange-700">
+                      <strong>Telefon:</strong>
+                      <br />
+                      <a
+                        href="tel:0603044421"
+                        className="text-orange-600 hover:text-orange-700"
+                      >
                         060 304 44 21
                       </a>
                     </p>
                     <p>
-                      <strong>Email:</strong><br />
-                      <a href="mailto:solutiontssm@gmail.com" className="text-orange-600 hover:text-orange-700">
+                      <strong>Email:</strong>
+                      <br />
+                      <a
+                        href="mailto:solutiontssm@gmail.com"
+                        className="text-orange-600 hover:text-orange-700"
+                      >
                         solutiontssm@gmail.com
                       </a>
                     </p>
@@ -201,9 +229,15 @@ export default function Kontakt() {
                     Radno Vreme
                   </h3>
                   <div className="space-y-2 text-gray-700">
-                    <p><strong>Ponedeljak - Petak:</strong> 6:00 - 18:00</p>
-                    <p><strong>Subota:</strong> 6:00 - 14:00</p>
-                    <p><strong>Nedelja:</strong> Po dogovoru</p>
+                    <p>
+                      <strong>Ponedeljak - Petak:</strong> 6:00 - 18:00
+                    </p>
+                    <p>
+                      <strong>Subota:</strong> 6:00 - 14:00
+                    </p>
+                    <p>
+                      <strong>Nedelja:</strong> Po dogovoru
+                    </p>
                   </div>
                   <p className="text-sm text-gray-600 mt-4">
                     * Dostava obroka se vrši u sve tri smene prema dogovoru
@@ -215,7 +249,8 @@ export default function Kontakt() {
                     Brzi Kontakt
                   </h3>
                   <p className="text-gray-700 mb-4">
-                    Za hitne upite ili dodatne informacije, slobodno nas pozovite:
+                    Za hitne upite ili dodatne informacije, slobodno nas
+                    pozovite:
                   </p>
                   <a
                     href="tel:0603044421"
@@ -241,14 +276,19 @@ export default function Kontakt() {
               Janka Kostića 26, Aranđelovac
             </p>
           </div>
-          
+
           <div className="bg-gray-200 h-64 rounded-lg flex items-center justify-center">
             <iframe
               title="Mapa Tesasomi Solution"
               src="https://www.google.com/maps?q=Janka+Kosti%C4%87a+26,+Aran%C4%91elovac&output=embed"
               width="100%"
               height="100%"
-              style={{ border: 0, borderRadius: '0.5rem', width: '100%', height: '100%' }}
+              style={{
+                border: 0,
+                borderRadius: "0.5rem",
+                width: "100%",
+                height: "100%",
+              }}
               allowFullScreen={true}
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
@@ -258,4 +298,4 @@ export default function Kontakt() {
       </section>
     </div>
   );
-} 
+}
