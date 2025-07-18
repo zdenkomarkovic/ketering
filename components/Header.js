@@ -77,22 +77,22 @@ export default function Header() {
         {isMenuOpen && (
           <div className="md:hidden py-4 border-t">
             <nav className="flex flex-col space-y-4">
-              <Link href="/" className="text-gray-700 hover:text-[#a83232] transition-colors">
+              <Link href="/" className="text-gray-700 hover:text-[#a83232] transition-colors" onClick={() => setIsMenuOpen(false)}>
                 Početna
               </Link>
-              <Link href="/o-nama" className="text-gray-700 hover:text-[#a83232] transition-colors">
+              <Link href="/o-nama" className="text-gray-700 hover:text-[#a83232] transition-colors" onClick={() => setIsMenuOpen(false)}>
                 O nama
               </Link>
-              <Link href="/meni" className="text-gray-700 hover:text-[#a83232] transition-colors">
+              <Link href="/meni" className="text-gray-700 hover:text-[#a83232] transition-colors" onClick={() => setIsMenuOpen(false)}>
                 Meni
               </Link>
-              <Link href="/zdravi-obroci" className="text-gray-700 hover:text-[#a83232] transition-colors">
+              <Link href="/zdravi-obroci" className="text-gray-700 hover:text-[#a83232] transition-colors" onClick={() => setIsMenuOpen(false)}>
                 Zdravi obroci
               </Link>
-              <Link href="/ketering-za-firme" className="text-gray-700 hover:text-[#a83232] transition-colors">
+              <Link href="/ketering-za-firme" className="text-gray-700 hover:text-[#a83232] transition-colors" onClick={() => setIsMenuOpen(false)}>
                 Ketering za firme
               </Link>
-              <Link href="/kontakt" className="text-gray-700 hover:text-[#a83232] transition-colors">
+              <Link href="/kontakt" className="text-gray-700 hover:text-[#a83232] transition-colors" onClick={() => setIsMenuOpen(false)}>
                 Kontakt
               </Link>
             </nav>
