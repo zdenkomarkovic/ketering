@@ -1,3 +1,5 @@
+import AboutSection from '../../../components/AboutSection';
+
 export default function ONama() {
   return (
     <div className="bg-white">
@@ -14,105 +16,69 @@ export default function ONama() {
       </section>
 
       {/* Main Content */}
-      <section className="py-16">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="pt-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="prose prose-lg mx-auto">
-            <h2 className="text-3xl font-bold bg-gradient-to-r from-[#3b0a0a] via-[#a83232] to-[#fff] bg-clip-text text-transparent drop-shadow-lg mb-8">
-              Naša Priča
+            <AboutSection />
+          </div>
+        </div>
+      </section>
+
+              {/* SEO Content Section with Background Image */}
+        <section className="relative text-center text-black py-16 bg-cover bg-center bg-no-repeat" style={{backgroundImage: 'url(/images/manu.jpg)'}}>
+        <div className="absolute inset-0 bg-white/70"></div>
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="prose prose-lg mx-auto">
+            <h2 className="text-3xl font-bold bg-gradient-to-r from-[#3b0a0a] via-[#a83232] to-[#8c282a] bg-clip-text text-transparent drop-shadow-lg mb-10 text-center">
+              Ketering Aranđelovac - Vaš Pouzdani Partner
             </h2>
             
-            <p className="text-gray-700 mb-6">
-              Tesasomi Solution je firma specijalizovana za ishranu zaposlenih koji rade na terenu ili u firmama. 
+            <p className="mb-8 text-lg">
+              Tesasomi Solution je vodeća firma za <strong>ketering Aranđelovac</strong> i okolinu, specijalizovana za ishranu zaposlenih koji rade na terenu ili u firmama. 
               Naša misija je da obezbedimo kvalitetne, obilne i ukusne obroke koji će energizovati vaše zaposlene 
-              i doprineti njihovoj produktivnosti tokom radnog dana.
+              i doprineti njihovoj produktivnosti tokom radnog dana. Kao pouzdani <strong>ketering servis Aranđelovac</strong>, 
+              posvećeni smo kvalitetu i zadovoljstvu naših klijenata.
             </p>
 
-            <p className="text-gray-700 mb-6">
+            <p className=" mb-8 text-lg">
               Razumemo da svaka firma ima različite potrebe i rasporede rada. Zato smo fleksibilni i prilagođavamo 
-              se vašim zahtevima - dostavljamo obroke u unapred dogovoreno vreme i možemo da pokrijemo sve tri smene.
+              se vašim zahtevima - dostavljamo obroke u unapred dogovoreno vreme i možemo da pokrijemo sve tri smene. 
+              Naš <strong>ketering za firme Aranđelovac</strong> pokriva široku geografsku oblast i prilagođava se 
+              različitim radnim okruženjima.
             </p>
 
-            <h3 className="text-2xl font-bold bg-gradient-to-r from-[#3b0a0a] via-[#a83232] to-[#fff] bg-clip-text text-transparent drop-shadow-lg mt-12 mb-6">
-              Naša Specijalnost
+            <h3 className="text-2xl font-bold bg-gradient-to-r from-[#3b0a0a] via-[#a83232] to-[#8c282a] bg-clip-text text-transparent drop-shadow-lg mt-16 mb-8">
+              Zašto Izabrati Naš Ketering Aranđelovac?
             </h3>
-            
-            <p className="text-gray-700 mb-6">
-              Specijalizovani smo za ishranu zaposlenih na terenu i u firmama. Naš pristup je jedinstven jer:
+
+            <p className="mb-8 text-lg">
+              Kao <strong>profesionalni ketering Aranđelovac</strong>, nudimo kompletnu uslugu ishrane zaposlenih koja uključuje:
             </p>
 
-            <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
-              <li>Razumemo specifičnosti rada na terenu i potrebe za obilnim obrocima</li>
-              <li>Prilagođavamo se različitim smenama i radnim vremenima</li>
-              <li>Koristimo samo sveže, kvalitetne namirnice</li>
-              <li>Pripremamo tradicionalna srpska jela koja su poznata i voljena</li>
-              <li>Garantujemo tačnost dostave u dogovoreno vreme</li>
+            <ul className="list-disc pl-8 mb-10  text-left space-y-3 mx-auto w-fit text-lg">
+              <li><strong>Ketering za firme Aranđelovac</strong> - prilagođene menije za različite vrste poslova</li>
+              <li><strong>Ishrana zaposlenih na terenu</strong> - obilni obroci za fizički zahtevne poslove</li>
+              <li><strong>Dostava u sve tri smene</strong> - rano jutro, popodne i noćne smene</li>
+              <li><strong>Fleksibilni rasporedi</strong> - prilagođavamo se vašim radnim vremenima</li>
+              <li><strong>Kvalitetne namirnice</strong> - koristimo samo sveže i proverene proizvode</li>
+              <li><strong>Povoljne cene</strong> - transparentno cenovno rješenje bez skrivenih troškova</li>
             </ul>
 
-            <h3 className="text-2xl font-bold bg-gradient-to-r from-[#3b0a0a] via-[#a83232] to-[#fff] bg-clip-text text-transparent drop-shadow-lg mt-12 mb-6">
-              Naš Standard
+            <h3 className="text-2xl font-bold bg-gradient-to-r from-[#3b0a0a] via-[#a83232] to-[#8c282a] bg-clip-text text-transparent drop-shadow-lg mt-16 mb-8">
+              Naš Meni i Kvalitet
             </h3>
-            
-            <p className="text-gray-700 mb-6">
-              Svaki obrok koji dostavljamo sadrži:
+
+            <p className="mb-8 text-lg">
+              Naš <strong>ketering meni Aranđelovac</strong> uključuje tradicionalna srpska jela poput gulaša, musake, 
+              punjenih paprika, pasulja sa kobasicom i mnogih drugih ukusnih obroka. Svaki obrok je pažljivo pripremljen 
+              sa svežim namirnicama i prilagođen potrebama zaposlenih koji rade u različitim uslovima.
             </p>
 
-            <div className="bg-orange-50 p-6 rounded-lg mb-8">
-              <ul className="space-y-2 text-gray-700">
-                <li><strong>Gotovo jelo:</strong> 500g - obilno i ukusno glavno jelo</li>
-                <li><strong>Salata:</strong> 150g - sveža salata za dodatne vitamine</li>
-                <li><strong>Hleb:</strong> 150g - svež hleb za kompletan obrok</li>
-              </ul>
-            </div>
-
-            <h3 className="text-2xl font-bold bg-gradient-to-r from-[#3b0a0a] via-[#a83232] to-[#fff] bg-clip-text text-transparent drop-shadow-lg mt-12 mb-6">
-              Naš Meni
-            </h3>
-            
-            <p className="text-gray-700 mb-6">
-              Svakog dana pripremamo različita jela, uključujući tradicionalna srpska jela kao što su:
+            <p className=" mb-8 text-lg">
+              Kao <strong>pouzdani ketering Aranđelovac</strong>, garantujemo da će vaši zaposleni dobiti obilne, 
+              ukusne i nutritivne obroke koji će im dati energiju za produktivan rad. Naša iskustva u oblasti 
+              <strong>ishrane zaposlenih</strong> čine nas idealnim partnerom za sve vrste firmi i organizacija.
             </p>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-              <div className="bg-gray-50 p-4 rounded-lg">
-                <h4 className="font-semibold bg-gradient-to-r from-[#3b0a0a] via-[#a83232] to-[#fff] bg-clip-text text-transparent drop-shadow mb-2">Glavna Jela</h4>
-                <ul className="text-sm text-gray-700 space-y-1">
-                  <li>• Gulaš (makarone ili pire)</li>
-                  <li>• Musaka</li>
-                  <li>• Punjene paprike</li>
-                  <li>• Pasulj sa kobasicom</li>
-                  <li>• Ćufte u sosu</li>
-                  <li>• I mnoga druga jela...</li>
-                </ul>
-              </div>
-              <div className="bg-gray-50 p-4 rounded-lg">
-                <h4 className="font-semibold bg-gradient-to-r from-[#3b0a0a] via-[#a83232] to-[#fff] bg-clip-text text-transparent drop-shadow mb-2">Salate i Dodaci</h4>
-                <ul className="text-sm text-gray-700 space-y-1">
-                  <li>• Pileća salata</li>
-                  <li>• Cezar salata</li>
-                  <li>• Sveže salate</li>
-                  <li>• Sendviči</li>
-                  <li>• Sezonsko povrće</li>
-                </ul>
-              </div>
-            </div>
-
-            <h3 className="text-2xl font-bold bg-gradient-to-r from-[#3b0a0a] via-[#a83232] to-[#fff] bg-clip-text text-transparent drop-shadow-lg mt-12 mb-6">
-              Naša Lokacija
-            </h3>
-            
-            <p className="text-gray-700 mb-6">
-              Nalazimo se u Aranđelovcu, na adresi Janka Kostića 26. Naša centralna lokacija nam omogućava 
-              da efikasno dostavljamo obroke u široj okolini i prilagođavamo se potrebama različitih firmi.
-            </p>
-
-            <div className="bg-blue-50 p-6 rounded-lg">
-              <h4 className="font-semibold bg-gradient-to-r from-[#3b0a0a] via-[#a83232] to-[#fff] bg-clip-text text-transparent drop-shadow mb-4">Kontakt Informacije</h4>
-              <div className="space-y-2 text-gray-700">
-                <p><strong>Adresa:</strong> Janka Kostića 26, Aranđelovac</p>
-                <p><strong>Telefon:</strong> 060 304 44 21</p>
-                <p><strong>Email:</strong> solutiontssm@gmail.com</p>
-              </div>
-            </div>
           </div>
         </div>
       </section>

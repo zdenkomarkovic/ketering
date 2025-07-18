@@ -228,21 +228,23 @@ export default function Meni() {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
               {menuData.glavnaJela.map((jelo, index) => (
-                <div key={index} className="bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
-                  <div className="flex items-center gap-3 p-3">
-                    <img 
-                      src={jelo.image} 
-                      alt={jelo.name}
-                      className="w-15 rounded-full object-cover border border-orange-200"
-                    />
+                <div key={index} className="bg-white border  relative border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+                  <div className="flex flex-col items-center text-center p-1">
                     <div>
-                      <h3 className="text-xl font-semibold bg-gradient-to-r from-[#3b0a0a] via-[#a83232] to-[#8c282a] bg-clip-text text-transparent drop-shadow mb-1">{jelo.name}</h3>
+                      <h3 className="text-xl font-semibold bg-gradient-to-r from-[#3b0a0a] via-[#a83232] to-[#8c282a] bg-clip-text text-transparent drop-shadow mb-0">{jelo.name}</h3>
                     </div>
                   </div>
-                  <div className="p-3 pt-0">
+                  <div className=" pt-0 text-center">
                     <p className="text-sm text-orange-600 font-medium">
                       Dodatak: Salata, Hleb
                     </p>
+                    <div className="flex justify-center">
+                      <img 
+                        src={"/images/food_14240523.png"} 
+                        alt={jelo.name}
+                        className="w-20  object-cover"
+                      />
+                    </div>
                   </div>
                 </div>
               ))}
@@ -257,14 +259,18 @@ export default function Meni() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               {menuData.obrokSalate.map((salata, index) => (
                 <div key={index} className="bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
-                  <div className="flex items-center gap-3 p-3">
-                    <img 
-                      src={salata.image} 
-                      alt={salata.name}
-                      className="w-20 rounded-full object-cover border border-orange-200"
-                    />
+                  <div className="flex flex-col items-center text-center p-3">
                     <div>
-                      <h3 className="text-xl font-semibold bg-gradient-to-r from-[#3b0a0a] via-[#a83232] to-[#8c282a] bg-clip-text text-transparent drop-shadow mb-1">{salata.name}</h3>
+                      <h3 className="text-xl font-semibold bg-gradient-to-r from-[#3b0a0a] via-[#a83232] to-[#8c282a] bg-clip-text text-transparent drop-shadow ">{salata.name}</h3>
+                    </div>
+                  </div>
+                  <div className="p-3 pt-0 text-center">
+                    <div className="flex justify-center">
+                      <img 
+                        src={salata.image} 
+                        alt={salata.name}
+                        className="w-20 rounded-full object-cover border border-orange-200"
+                      />
                     </div>
                   </div>
                 </div>
@@ -280,14 +286,18 @@ export default function Meni() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
               {menuData.svezeSalate.map((salata, index) => (
                 <div key={index} className="bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
-                  <div className="flex items-center gap-3 p-3">
-                    <img 
-                      src={salata.image} 
-                      alt={salata.name}
-                      className="w-20 rounded-full object-cover border border-orange-200"
-                    />
+                  <div className="flex flex-col items-center text-center p-3">
                     <div>
-                      <h3 className="text-xl font-semibold bg-gradient-to-r from-[#3b0a0a] via-[#a83232] to-[#8c282a] bg-clip-text text-transparent drop-shadow mb-1">{salata.name}</h3>
+                      <h3 className="text-xl font-semibold bg-gradient-to-r from-[#3b0a0a] via-[#a83232] to-[#8c282a] bg-clip-text text-transparent drop-shadow ">{salata.name}</h3>
+                    </div>
+                  </div>
+                  <div className="p-3 pt-0 text-center">
+                    <div className="flex justify-center">
+                      <img 
+                        src={salata.image} 
+                        alt={salata.name}
+                        className="w-20 rounded-full object-cover border border-orange-200"
+                      />
                     </div>
                   </div>
                 </div>
@@ -303,20 +313,22 @@ export default function Meni() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {menuData.sendvici.map((sendvic, index) => (
                 <div key={index} className="bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
-                  <div className="flex items-center gap-3 p-3">
-                    <img 
-                      src="/images/18336538_pqcg_79mw_210608.jpg" 
-                      alt={sendvic.name}
-                      className="w-20 rounded-full border border-orange-200"
-                    />
+                  <div className="flex flex-col items-center text-center p-3">
                     <div>
-                      <h3 className="text-xl font-semibold bg-gradient-to-r from-[#3b0a0a] via-[#a83232] to-[#8c282a] bg-clip-text text-transparent drop-shadow mb-1">{sendvic.name}</h3>
+                      <h3 className="text-xl font-semibold bg-gradient-to-r from-[#3b0a0a] via-[#a83232] to-[#8c282a] bg-clip-text text-transparent drop-shadow">{sendvic.name}</h3>
                     </div>
                   </div>
-                  <div className="p-3 pt-0">
-                    <p className="text-sm text-gray-500">
+                  <div className="p-3 pt-0 text-center">
+                    <p className="text-sm text-gray-500 mb-3">
                       <strong>Sastojci:</strong> {sendvic.ingredients}
                     </p>
+                    <div className="flex justify-center">
+                      <img 
+                        src="/images/18336538_pqcg_79mw_210608.jpg" 
+                        alt={sendvic.name}
+                        className="w-20 rounded-full border border-orange-200"
+                      />
+                    </div>
                   </div>
                 </div>
               ))}

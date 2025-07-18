@@ -117,7 +117,7 @@ export default function KeteringZaFirme() {
           minHeight: "100vh"
         }}
       >
-        <div className="absolute inset-0 bg-black/80"></div>
+        <div className="absolute inset-0 bg-black/70"></div>
         <div className="relative z-10">
           {/* Services Overview */}
           <section className="py-16">

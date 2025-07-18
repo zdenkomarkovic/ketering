@@ -2,12 +2,12 @@ import Link from 'next/link';
 
 export default function Hero() {
   return (
-    <section className="relative bg-gradient-to-r from-[#7b2222] via-[#a83232] to-[#3b0a0a] text-white">
+    <section className="relative text-white">
       <div className="absolute inset-0">
         <img
-          src="/images/hero.jpg"
+          src="/images/2149370899.jpg"
           alt="Ketering sto sa hranom"
-          className="w-full h-full object-cover object-center opacity-70"
+          className="w-full h-full object-cover object-center"
         />
         <div className="absolute inset-0 bg-black opacity-30"></div>
       </div>
