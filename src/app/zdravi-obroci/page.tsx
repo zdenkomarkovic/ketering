@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 export default function ZdraviObroci() {
   return (
@@ -90,7 +91,7 @@ export default function ZdraviObroci() {
           </div>
 
           {/* Detaljniji opis */}
-          <div className="bg-gradient-to-r from-red-50 to-red-50 p-8 rounded-lg mb-16">
+          <div className=" px-3 rounded-lg mb-16">
             <h3 className="text-3xl font-bold mb-6 text-center bg-gradient-to-r from-[#3b0a0a] via-[#a83232] to-[#fff] bg-clip-text text-transparent drop-shadow-lg">
               Obroci Koji Odgovaraju Vašim Ciljevima
             </h3>
@@ -122,54 +123,44 @@ export default function ZdraviObroci() {
           </div>
 
           {/* Struktura obroka */}
-          <div className="text-center mb-16">
+          <div className="text-center mb-16 px-4">
             <h3 className="text-3xl font-bold mb-8 bg-gradient-to-r from-[#3b0a0a] via-[#a83232] to-[#fff] bg-clip-text text-transparent drop-shadow-lg">
               Vaša Dnevna Struktura Obrazovanja
             </h3>
             <div className="grid md:grid-cols-5 gap-4">
-              <div className="bg-white border-2 border-red-200 rounded-lg p-6 hover:border-red-400 transition-colors">
-                <div className="w-16 h-16 bg-gradient-to-br from-orange-400 to-orange-600 rounded-full flex items-center justify-center mx-auto mb-3 shadow-lg">
-                  <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
-                  </svg>
+              <div className="bg-white rounded-lg p-3 hover:shadow-xl shadow-lg transform hover:scale-105 transition-transform duration-200">
+                <div className="flex items-center justify-center mx-auto ">
+                  <Image src="/images/dorucak.png" alt="Doručak" width={64} height={64} className="object-contain w-40 mb-2" />
                 </div>
-                <h4 className="text-lg font-semibold text-red-800 mb-2">Doručak</h4>
+                <h4 className="text-2xl font-semibold text-red-800 mb-2">Doručak</h4>
                 <p className="text-sm text-gray-600">Energetski bogat početak dana</p>
               </div>
-              <div className="bg-white border-2 border-red-200 rounded-lg p-6 hover:border-red-400 transition-colors">
-                <div className="w-16 h-16 bg-gradient-to-br from-yellow-400 to-yellow-600 rounded-full flex items-center justify-center mx-auto mb-3 shadow-lg">
-                  <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
-                  </svg>
+              <div className="bg-white rounded-lg p-3 hover:shadow-xl shadow-lg transform hover:scale-105 transition-transform duration-200">
+                <div className=" flex items-center justify-center mx-auto">
+                  <Image src="/images/uzina1.png" alt="Užina" width={64} height={64} className="object-contain w-40 mb-2" />
                 </div>
-                <h4 className="text-lg font-semibold text-red-800 mb-2">Užina</h4>
+                <h4 className="text-2xl font-semibold text-red-800 mb-2">Užina</h4>
                 <p className="text-sm text-gray-600">Laki obrok za održavanje energije</p>
               </div>
-              <div className="bg-white border-2 border-red-200 rounded-lg p-6 hover:border-red-400 transition-colors">
-                <div className="w-16 h-16 bg-gradient-to-br from-red-400 to-red-600 rounded-full flex items-center justify-center mx-auto mb-3 shadow-lg">
-                  <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M8.1 13.34l2.83-2.83L3.91 3.5c-1.56 1.56-1.56 4.09 0 5.66l4.19 4.18zm6.78-1.81c1.53.71 3.68.21 5.27-1.38 1.91-1.91 2.28-4.65.81-6.12-1.46-1.46-4.2-1.1-6.12.81-1.59 1.59-2.09 3.74-1.38 5.27L3.7 19.87l1.41 1.41L12 14.41l6.88 6.88 1.41-1.41L13.41 13l1.47-1.47z"/>
-                  </svg>
+              <div className="bg-white rounded-lg p-3 hover:shadow-xl shadow-lg transform hover:scale-105 transition-transform duration-200">
+                <div className="flex items-center justify-center mx-auto">
+                  <Image src="/images/rucak.png" alt="Ručak" width={64} height={64} className="object-contain w-40 mb-2 " />
                 </div>
-                <h4 className="text-lg font-semibold text-red-800 mb-2">Ručak</h4>
+                <h4 className="text-2xl font-semibold text-red-800 mb-2">Ručak</h4>
                 <p className="text-sm text-gray-600">Glavni obrok sa kompletnim nutritivnim profilom</p>
               </div>
-              <div className="bg-white border-2 border-red-200 rounded-lg p-6 hover:border-red-400 transition-colors">
-                <div className="w-16 h-16 bg-gradient-to-br from-green-400 to-green-600 rounded-full flex items-center justify-center mx-auto mb-3 shadow-lg">
-                  <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
-                  </svg>
+              <div className="bg-white rounded-lg p-3 hover:shadow-xl shadow-lg transform hover:scale-105 transition-transform duration-200">
+                <div className="flex items-center justify-center mx-auto ">
+                  <Image src="/images/uzina2.png" alt="Užina" width={64} height={64} className="object-contain w-40 mb-2  " />
                 </div>
-                <h4 className="text-lg font-semibold text-red-800 mb-2">Užina</h4>
+                <h4 className="text-2xl font-semibold text-red-800 mb-2">Užina</h4>
                 <p className="text-sm text-gray-600">Popodnevni boost energije</p>
               </div>
-              <div className="bg-white border-2 border-red-200 rounded-lg p-6 hover:border-red-400 transition-colors">
-                <div className="w-16 h-16 bg-gradient-to-br from-purple-400 to-purple-600 rounded-full flex items-center justify-center mx-auto mb-3 shadow-lg">
-                  <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M12 3c-4.97 0-9 4.03-9 9s4.03 9 9 9c.83 0 1.5-.67 1.5-1.5 0-.39-.15-.74-.39-1.01-.23-.26-.38-.61-.38-.99 0-.83.67-1.5 1.5-1.5H16c2.76 0 5-2.24 5-5 0-4.42-4.03-8-9-8zm-5.5 9c-.83 0-1.5-.67-1.5-1.5S5.67 9 6.5 9 8 9.67 8 10.5 7.33 12 6.5 12zm3-4C8.67 8 8 7.33 8 6.5S8.67 5 9.5 5s1.5.67 1.5 1.5S10.33 8 9.5 8zm5 0c-.83 0-1.5-.67-1.5-1.5S13.67 5 14.5 5s1.5.67 1.5 1.5S15.33 8 14.5 8zm3 4c-.83 0-1.5-.67-1.5-1.5S16.67 9 17.5 9s1.5.67 1.5 1.5-.67 1.5-1.5 1.5z"/>
-                  </svg>
+              <div className="bg-white rounded-lg p-3 hover:shadow-xl shadow-lg transform hover:scale-105 transition-transform duration-200">
+                <div className="flex items-center justify-center mx-auto">
+                  <Image src="/images/vecera.png" alt="Večera" width={64} height={64} className="object-contain w-40 mb-2" />
                 </div>
-                <h4 className="text-lg font-semibold text-red-800 mb-2">Večera</h4>
+                <h4 className="text-2xl font-semibold text-red-800 mb-2">Večera</h4>
                 <p className="text-sm text-gray-600">Laki obrok za opuštanje</p>
               </div>
             </div>

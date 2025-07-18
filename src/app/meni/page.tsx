@@ -188,44 +188,36 @@ export default function Meni() {
         </div>
       </section>
 
-      {/* Menu Info */}
-      <section className="py-8 bg-orange-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center">
-            <div className="bg-white p-6 rounded-lg shadow-md inline-block">
-              <h2 className="text-2xl font-bold bg-gradient-to-r from-[#3b0a0a] via-[#a83232] to-[#fff] bg-clip-text text-transparent drop-shadow-lg mb-4">
-                Standardni Obrok
-              </h2>
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-gray-700">
-                <div>
-                  <strong>Gotovo jelo:</strong><br />
-                  500g
-                </div>
-                <div>
-                  <strong>Salata:</strong><br />
-                  150g
-                </div>
-                <div>
-                  <strong>Hleb:</strong><br />
-                  150g
-                </div>
-              </div>
-              <p className="text-sm text-gray-600 mt-4">
-                * Meni se menja svakog dana
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+    
 
       {/* Main Menu */}
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Glavna Jela */}
           <div className="mb-16">
-            <h2 className="text-3xl font-bold bg-gradient-to-r from-[#3b0a0a] via-[#a83232] to-[#fff] bg-clip-text text-transparent drop-shadow-lg mb-8 text-center">
+            <h2 className="text-3xl font-bold bg-gradient-to-r from-[#3b0a0a] via-[#a83232] to-[#fff] bg-clip-text text-transparent drop-shadow-lg md:mb-3 text-center">
               Glavna Jela
             </h2>
+            <div className="bg-white p-6 mx-auto text-center">
+     
+              <div className="flex flex-col md:flex-row justify-center md:gap-6  text-gray-700">
+                <div className="flex gap-1 items-center mx-auto md:mx-0">
+                  <strong>Gotovo jelo:</strong><br />
+                 <p>500g</p> 
+                </div>
+                <div className="flex gap-1 items-center mx-auto md:mx-0">
+                  <strong>Salata:</strong><br />
+                  <p>150g</p>
+                </div>
+                <div className="flex gap-1 items-center mx-auto md:mx-0">
+                  <strong>Hleb:</strong><br />
+                  <p>150g</p>
+                </div>
+              </div>
+              <p className="text-sm text-gray-600 mt-4">
+                * Meni se menja svakog dana
+              </p>
+            </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
               {menuData.glavnaJela.map((jelo, index) => (
                 <div key={index} className="bg-white border  relative border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
@@ -267,9 +259,9 @@ export default function Meni() {
                   <div className="p-3 pt-0 text-center">
                     <div className="flex justify-center">
                       <img 
-                        src={salata.image} 
+                        src={"/images/22183342_6587525.png"} 
                         alt={salata.name}
-                        className="w-20 rounded-full object-cover border border-orange-200"
+                        className="w-20 "
                       />
                     </div>
                   </div>
@@ -294,9 +286,9 @@ export default function Meni() {
                   <div className="p-3 pt-0 text-center">
                     <div className="flex justify-center">
                       <img 
-                        src={salata.image} 
+                        src={"/images/22183342_6587525.png"} 
                         alt={salata.name}
-                        className="w-20 rounded-full object-cover border border-orange-200"
+                        className="w-20 "
                       />
                     </div>
                   </div>
@@ -324,9 +316,9 @@ export default function Meni() {
                     </p>
                     <div className="flex justify-center">
                       <img 
-                        src="/images/18336538_pqcg_79mw_210608.jpg" 
+                        src="/images/sendvic.png" 
                         alt={sendvic.name}
-                        className="w-20 rounded-full border border-orange-200"
+                        className="w-20 "
                       />
                     </div>
                   </div>
