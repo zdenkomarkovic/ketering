@@ -29,22 +29,22 @@ export default function Header() {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-8">
-            <Link href="/" className="text-gray-700 hover:text-[#a83232] transition-colors">
+            <Link href="/" className="text-gray-700 transition-colors hover:bg-gradient-to-r hover:from-[#3b0a0a] hover:via-[#a83232] hover:to-[#8c282a] hover:bg-clip-text hover:text-transparent">
               Početna
             </Link>
-            <Link href="/o-nama" className="text-gray-700 hover:text-[#a83232] transition-colors">
+            <Link href="/o-nama" className="text-gray-700 transition-colors hover:bg-gradient-to-r hover:from-[#3b0a0a] hover:via-[#a83232] hover:to-[#8c282a] hover:bg-clip-text hover:text-transparent">
               O nama
             </Link>
-            <Link href="/meni" className="text-gray-700 hover:text-[#a83232] transition-colors">
+            <Link href="/meni" className="text-gray-700 transition-colors hover:bg-gradient-to-r hover:from-[#3b0a0a] hover:via-[#a83232] hover:to-[#8c282a] hover:bg-clip-text hover:text-transparent">
               Meni
             </Link>
-            <Link href="/zdravi-obroci" className="text-gray-700 hover:text-[#a83232] transition-colors">
+            <Link href="/zdravi-obroci" className="text-gray-700 transition-colors hover:bg-gradient-to-r hover:from-[#3b0a0a] hover:via-[#a83232] hover:to-[#8c282a] hover:bg-clip-text hover:text-transparent">
               Zdravi obroci
             </Link>
-            <Link href="/ketering-za-firme" className="text-gray-700 hover:text-[#a83232] transition-colors">
+            <Link href="/ketering-za-firme" className="text-gray-700 transition-colors hover:bg-gradient-to-r hover:from-[#3b0a0a] hover:via-[#a83232] hover:to-[#8c282a] hover:bg-clip-text hover:text-transparent">
               Ketering za firme
             </Link>
-            <Link href="/kontakt" className="text-gray-700 hover:text-[#a83232] transition-colors">
+            <Link href="/kontakt" className="text-gray-700 transition-colors hover:bg-gradient-to-r hover:from-[#3b0a0a] hover:via-[#a83232] hover:to-[#8c282a] hover:bg-clip-text hover:text-transparent">
               Kontakt
             </Link>
           </nav>
@@ -77,22 +77,22 @@ export default function Header() {
         {isMenuOpen && (
           <div className="md:hidden py-4 border-t">
             <nav className="flex flex-col space-y-4">
-              <Link href="/" className="text-gray-700 hover:text-[#a83232] transition-colors" onClick={() => setIsMenuOpen(false)}>
+              <Link href="/" className="text-gray-700 transition-colors hover:bg-gradient-to-r hover:from-[#3b0a0a] hover:via-[#a83232] hover:to-[#8c282a] hover:bg-clip-text hover:text-transparent" onClick={() => setIsMenuOpen(false)}>
                 Početna
               </Link>
-              <Link href="/o-nama" className="text-gray-700 hover:text-[#a83232] transition-colors" onClick={() => setIsMenuOpen(false)}>
+              <Link href="/o-nama" className="text-gray-700 transition-colors hover:bg-gradient-to-r hover:from-[#3b0a0a] hover:via-[#a83232] hover:to-[#8c282a] hover:bg-clip-text hover:text-transparent" onClick={() => setIsMenuOpen(false)}>
                 O nama
               </Link>
-              <Link href="/meni" className="text-gray-700 hover:text-[#a83232] transition-colors" onClick={() => setIsMenuOpen(false)}>
+              <Link href="/meni" className="text-gray-700 transition-colors hover:bg-gradient-to-r hover:from-[#3b0a0a] hover:via-[#a83232] hover:to-[#8c282a] hover:bg-clip-text hover:text-transparent" onClick={() => setIsMenuOpen(false)}>
                 Meni
               </Link>
-              <Link href="/zdravi-obroci" className="text-gray-700 hover:text-[#a83232] transition-colors" onClick={() => setIsMenuOpen(false)}>
+              <Link href="/zdravi-obroci" className="text-gray-700 transition-colors hover:bg-gradient-to-r hover:from-[#3b0a0a] hover:via-[#a83232] hover:to-[#8c282a] hover:bg-clip-text hover:text-transparent" onClick={() => setIsMenuOpen(false)}>
                 Zdravi obroci
               </Link>
-              <Link href="/ketering-za-firme" className="text-gray-700 hover:text-[#a83232] transition-colors" onClick={() => setIsMenuOpen(false)}>
+              <Link href="/ketering-za-firme" className="text-gray-700 transition-colors hover:bg-gradient-to-r hover:from-[#3b0a0a] hover:via-[#a83232] hover:to-[#8c282a] hover:bg-clip-text hover:text-transparent" onClick={() => setIsMenuOpen(false)}>
                 Ketering za firme
               </Link>
-              <Link href="/kontakt" className="text-gray-700 hover:text-[#a83232] transition-colors" onClick={() => setIsMenuOpen(false)}>
+              <Link href="/kontakt" className="text-gray-700 transition-colors hover:bg-gradient-to-r hover:from-[#3b0a0a] hover:via-[#a83232] hover:to-[#8c282a] hover:bg-clip-text hover:text-transparent" onClick={() => setIsMenuOpen(false)}>
                 Kontakt
               </Link>
             </nav>

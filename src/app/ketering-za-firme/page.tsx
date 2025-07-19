@@ -123,7 +123,7 @@ export default function KeteringZaFirme() {
           <section className="py-16">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-[#3b0a0a] via-[#a83232] to-[#fff] bg-clip-text text-transparent drop-shadow-lg mb-4">
+                <h2 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-[#3b0a0a] via-[#a83232] to-[#8c282a] bg-clip-text text-transparent drop-shadow-lg mb-4">
                   Šta nudimo
                 </h2>
                 <p className="text-xl text-white max-w-3xl mx-auto">
@@ -141,19 +141,19 @@ export default function KeteringZaFirme() {
                     <div
                       key={index}
                       ref={index === 2 ? secondRowRef : null}
-                      className={`bg-white border border-gray-200 rounded-lg p-8 shadow-sm hover:shadow-md transition-shadow
+                      className={`bg-white border border-gray-200 rounded-lg p-8 shadow-sm hover:shadow-md transition-shadow text-center
                         ${animate ? 'opacity-0 translate-y-8 animate-fade-in-up' : 'opacity-0'}
                       `}
                       style={animate ? { animationDelay: `${index * 120}ms`, animationFillMode: 'forwards' } : {}}
                     >
                       <div className="text-4xl mb-4">{service.icon}</div>
-                      <h3 className="text-2xl font-bold bg-gradient-to-r from-[#3b0a0a] via-[#a83232] to-[#fff] bg-clip-text text-transparent drop-shadow-lg mb-4">
+                      <h3 className="text-2xl font-bold bg-gradient-to-r from-[#3b0a0a] via-[#a83232] to-[#8c282a] bg-clip-text text-transparent drop-shadow-lg mb-4">
                         {service.title}
                       </h3>
                       <p className="text-gray-600 mb-6">
                         {service.description}
                       </p>
-                      <ul className="space-y-2">
+                      <ul className="space-y-2 mx-auto w-fit">
                         {service.features.map((feature, featureIndex) => (
                           <li key={featureIndex} className="flex items-start">
                             <span className="text-orange-500 mr-2">✓</span>
@@ -172,7 +172,7 @@ export default function KeteringZaFirme() {
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-[#3b0a0a] via-[#a83232] to-[#fff] bg-clip-text text-transparent drop-shadow-lg mb-4">
+            <h2 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-[#3b0a0a] via-[#a83232] to-[#8c282a] bg-clip-text text-transparent drop-shadow-lg mb-4">
               Kako radimo
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -186,7 +186,7 @@ export default function KeteringZaFirme() {
                 <div className="bg-gradient-to-r from-[#7b2222] via-[#a83232] to-[#3b0a0a] text-white w-12 h-12 rounded-full flex items-center justify-center text-xl font-bold mx-auto mb-4">
                   {step.step}
                 </div>
-                <h3 className="text-xl font-semibold bg-gradient-to-r from-[#3b0a0a] via-[#a83232] to-[#fff] bg-clip-text text-transparent drop-shadow mb-3">
+                <h3 className="text-xl font-semibold bg-gradient-to-r from-[#3b0a0a] via-[#a83232] to-[#8c282a] bg-clip-text text-transparent drop-shadow mb-3">
                   {step.title}
                 </h3>
                 <p className="text-gray-600">
@@ -202,7 +202,7 @@ export default function KeteringZaFirme() {
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-[#3b0a0a] via-[#a83232] to-[#fff] bg-clip-text text-transparent drop-shadow-lg mb-4">
+            <h2 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-[#3b0a0a] via-[#a83232] to-[#8c282a] bg-clip-text text-transparent drop-shadow-lg mb-4">
               Prednosti naše usluge
             </h2>
           </div>
@@ -212,7 +212,7 @@ export default function KeteringZaFirme() {
               <div className="bg-orange-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl">💰</span>
               </div>
-              <h3 className="text-xl font-semibold bg-gradient-to-r from-[#3b0a0a] via-[#a83232] to-[#fff] bg-clip-text text-transparent drop-shadow mb-3">
+              <h3 className="text-xl font-semibold bg-gradient-to-r from-[#3b0a0a] via-[#a83232] to-[#8c282a] bg-clip-text text-transparent drop-shadow mb-3">
                 Isplativost
               </h3>
               <p className="text-white">
@@ -224,7 +224,7 @@ export default function KeteringZaFirme() {
               <div className="bg-orange-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl">⏰</span>
               </div>
-              <h3 className="text-xl font-semibold bg-gradient-to-r from-[#3b0a0a] via-[#a83232] to-[#fff] bg-clip-text text-transparent drop-shadow mb-3">
+              <h3 className="text-xl font-semibold bg-gradient-to-r from-[#3b0a0a] via-[#a83232] to-[#8c282a] bg-clip-text text-transparent drop-shadow mb-3">
                 Pouzdanost
               </h3>
               <p className="text-white">
@@ -236,7 +236,7 @@ export default function KeteringZaFirme() {
               <div className="bg-orange-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl">🌱</span>
               </div>
-              <h3 className="text-xl font-semibold bg-gradient-to-r from-[#3b0a0a] via-[#a83232] to-[#fff] bg-clip-text text-transparent drop-shadow mb-3">
+              <h3 className="text-xl font-semibold bg-gradient-to-r from-[#3b0a0a] via-[#a83232] to-[#8c282a] bg-clip-text text-transparent drop-shadow mb-3">
                 Kvalitet
               </h3>
               <p className="text-white">

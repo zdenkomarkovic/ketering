@@ -51,10 +51,10 @@ export default function Kontakt() {
       {/* Contact Content */}
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 h-full">
             {/* Contact Form */}
             <div>
-              <h2 className="text-3xl font-bold bg-gradient-to-r from-[#3b0a0a] via-[#a83232] to-[#fff] bg-clip-text text-transparent drop-shadow-lg mb-8">
+              <h2 className="text-3xl font-bold bg-gradient-to-r from-[#3b0a0a] via-[#a83232] to-[#8c282a] bg-clip-text text-transparent drop-shadow-lg mb-8">
                 Pošaljite Nam Poruku
               </h2>
               <form onSubmit={handleSubmit} className="space-y-6">
@@ -183,21 +183,21 @@ export default function Kontakt() {
             </div>
 
             {/* Contact Information */}
-            <div>
-              <h2 className="text-3xl font-bold bg-gradient-to-r from-[#3b0a0a] via-[#a83232] to-[#fff] bg-clip-text text-transparent drop-shadow-lg mb-8">
+            <div className="h-full flex flex-col justify-between">
+              <h2 className="text-3xl font-bold bg-gradient-to-r from-[#3b0a0a] via-[#a83232] to-[#8c282a] bg-clip-text text-transparent drop-shadow-lg mb-8">
                 Kontakt Informacije
               </h2>
 
               <div className="space-y-8">
-                <div className="bg-orange-50 p-6 rounded-lg">
-                  <h3 className="text-xl font-semibold bg-gradient-to-r from-[#3b0a0a] via-[#a83232] to-[#fff] bg-clip-text text-transparent drop-shadow mb-4">
+                <div className="bg-blue-50 p-6 rounded-lg">
+                  <h3 className="text-xl font-semibold bg-gradient-to-r from-[#3b0a0a] via-[#a83232] to-[#8c282a] bg-clip-text text-transparent drop-shadow mb-4">
                     Tesasomi Solution
                   </h3>
                   <div className="space-y-3 text-gray-700">
                     <p>
                       <strong>Adresa:</strong>
                       <br />
-                      Janka Kostića 26
+                      Janka Katića 26
                       <br />
                       Aranđelovac
                     </p>
@@ -221,31 +221,15 @@ export default function Kontakt() {
                         solutiontssm@gmail.com
                       </a>
                     </p>
-                  </div>
-                </div>
-
-                <div className="bg-gray-50 p-6 rounded-lg">
-                  <h3 className="text-xl font-semibold bg-gradient-to-r from-[#3b0a0a] via-[#a83232] to-[#fff] bg-clip-text text-transparent drop-shadow mb-4">
-                    Radno Vreme
-                  </h3>
-                  <div className="space-y-2 text-gray-700">
-                    <p>
-                      <strong>Ponedeljak - Petak:</strong> 6:00 - 18:00
-                    </p>
-                    <p>
-                      <strong>Subota:</strong> 6:00 - 14:00
-                    </p>
-                    <p>
-                      <strong>Nedelja:</strong> Po dogovoru
-                    </p>
-                  </div>
-                  <p className="text-sm text-gray-600 mt-4">
+                    <p className="text-sm text-gray-600 mt-4 font-bold">
                     * Dostava obroka se vrši u sve tri smene prema dogovoru
                   </p>
+                  </div>
                 </div>
 
+
                 <div className="bg-blue-50 p-6 rounded-lg">
-                  <h3 className="text-xl font-semibold bg-gradient-to-r from-[#3b0a0a] via-[#a83232] to-[#fff] bg-clip-text text-transparent drop-shadow mb-4">
+                  <h3 className="text-xl font-semibold bg-gradient-to-r from-[#3b0a0a] via-[#a83232] to-[#8c282a] bg-clip-text text-transparent drop-shadow mb-4">
                     Brzi Kontakt
                   </h3>
                   <p className="text-gray-700 mb-4">
@@ -266,22 +250,13 @@ export default function Kontakt() {
       </section>
 
       {/* Map Section */}
-      <section className="py-16 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold bg-gradient-to-r from-[#3b0a0a] via-[#a83232] to-[#fff] bg-clip-text text-transparent drop-shadow-lg mb-4">
-              Gde Se Nalazimo
-            </h2>
-            <p className="text-xl text-gray-600">
-              Janka Kostića 26, Aranđelovac
-            </p>
-          </div>
+      <section className="h-80 mb-12">
+     
+ 
 
-          <div className="bg-gray-200 h-64 rounded-lg flex items-center justify-center">
-            <iframe
-              title="Mapa Tesasomi Solution"
-              src="https://www.google.com/maps?q=Janka+Kosti%C4%87a+26,+Aran%C4%91elovac&output=embed"
-              width="100%"
+      
+   
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15689.919060346538!2d20.545829993735627!3d44.3123134270297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47574d37fd5c14fd%3A0xc6e093b2b0fbdad4!2z0IjQsNC90LrQsCDQmtCw0YLQuNGb0LAgMjYsINCQ0YDQsNC90ZLQtdC70L7QstCw0YY!5e0!3m2!1ssr!2srs!4v1752878333165!5m2!1ssr!2srs" width="100%"
               height="100%"
               style={{
                 border: 0,
@@ -291,10 +266,9 @@ export default function Kontakt() {
               }}
               allowFullScreen={true}
               loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-            ></iframe>
-          </div>
-        </div>
+              referrerPolicy="no-referrer-when-downgrade"></iframe>
+    
+    
       </section>
     </div>
   );

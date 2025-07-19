@@ -195,7 +195,7 @@ export default function Meni() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Glavna Jela */}
           <div className="mb-16">
-            <h2 className="text-3xl font-bold bg-gradient-to-r from-[#3b0a0a] via-[#a83232] to-[#fff] bg-clip-text text-transparent drop-shadow-lg md:mb-3 text-center">
+            <h2 className="text-3xl font-bold bg-gradient-to-r from-[#3b0a0a] via-[#a83232] to-[#8c282a] bg-clip-text text-transparent drop-shadow-lg md:mb-3 text-center">
               Glavna Jela
             </h2>
             <div className="bg-white p-6 mx-auto text-center">
@@ -245,7 +245,7 @@ export default function Meni() {
 
           {/* Obrok Salate */}
           <div className="mb-16">
-            <h2 className="text-3xl font-bold bg-gradient-to-r from-[#3b0a0a] via-[#a83232] to-[#fff] bg-clip-text text-transparent drop-shadow-lg mb-8 text-center">
+            <h2 className="text-3xl font-bold bg-gradient-to-r from-[#3b0a0a] via-[#a83232] to-[#8c282a] bg-clip-text text-transparent drop-shadow-lg mb-8 text-center">
               Obrok Salate
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -272,7 +272,7 @@ export default function Meni() {
 
           {/* Sveže Salate */}
           <div className="mb-16">
-            <h2 className="text-3xl font-bold bg-gradient-to-r from-[#3b0a0a] via-[#a83232] to-[#fff] bg-clip-text text-transparent drop-shadow-lg mb-8 text-center">
+            <h2 className="text-3xl font-bold bg-gradient-to-r from-[#3b0a0a] via-[#a83232] to-[#8c282a] bg-clip-text text-transparent drop-shadow-lg mb-8 text-center">
               Sveže Salate
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -299,7 +299,7 @@ export default function Meni() {
 
           {/* Sendviči */}
           <div className="mb-16">
-            <h2 className="text-3xl font-bold bg-gradient-to-r from-[#3b0a0a] via-[#a83232] to-[#fff] bg-clip-text text-transparent drop-shadow-lg mb-8 text-center">
+            <h2 className="text-3xl font-bold bg-gradient-to-r from-[#3b0a0a] via-[#a83232] to-[#8c282a] bg-clip-text text-transparent drop-shadow-lg mb-8 text-center">
               Sendviči
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

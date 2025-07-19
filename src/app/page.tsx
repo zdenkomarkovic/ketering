@@ -34,7 +34,9 @@ export default function Home() {
           <div className="grid md:grid-cols-3 gap-8 mb-8">
             <div className="bg-gray-50 p-6 rounded-lg text-center">
               <div className="text-4xl mb-4">🕐</div>
-              <h3 className="text-xl font-semibold mb-3 text-red-800">Dostava u sve smene</h3>
+              <h3 className="text-xl font-semibold bg-gradient-to-r from-[#3b0a0a] via-[#a83232] to-[#8c282a] bg-clip-text text-transparent drop-shadow mb-3 text-red-800">
+                Dostava u sve smene
+              </h3>
               <p className="text-gray-600">
                 Jutarnja, popodnevna i noćna smena - pokrivamo sve potrebe vaših zaposlenih
               </p>
@@ -42,7 +44,9 @@ export default function Home() {
             
             <div className="bg-gray-50 p-6 rounded-lg text-center">
               <div className="text-4xl mb-4">📋</div>
-              <h3 className="text-xl font-semibold mb-3 text-red-800">Prilagođeni meni</h3>
+              <h3 className="text-xl font-semibold bg-gradient-to-r from-[#3b0a0a] via-[#a83232] to-[#8c282a] bg-clip-text text-transparent drop-shadow mb-3 text-red-800">
+                Prilagođeni meni
+              </h3>
               <p className="text-gray-600">
                 Planiranje menija u dogovoru sa vama, prema željama i potrebama
               </p>
@@ -50,7 +54,9 @@ export default function Home() {
             
             <div className="bg-gray-50 p-6 rounded-lg text-center">
               <div className="text-4xl mb-4">👥</div>
-              <h3 className="text-xl font-semibold mb-3 text-red-800">Timski pristup</h3>
+              <h3 className="text-xl font-semibold bg-gradient-to-r from-[#3b0a0a] via-[#a83232] to-[#8c282a] bg-clip-text text-transparent drop-shadow mb-3 text-red-800">
+                Timski pristup
+              </h3>
               <p className="text-gray-600">
                 Posebne ponude za veće timove i fleksibilni uslovi saradnje
               </p>
@@ -69,7 +75,7 @@ export default function Home() {
       <section className="py-16 bg-gray-50 relative overflow-hidden" >
         <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold bg-gradient-to-r from-[#3b0a0a] via-[#a83232] to-[#fff] bg-clip-text text-transparent drop-shadow-lg mb-4">
+            <h2 className="text-4xl font-bold bg-gradient-to-r from-[#3b0a0a] via-[#a83232] to-[#8c282a] bg-clip-text text-transparent drop-shadow-lg mb-4">
               Zdravi Obroci
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -81,7 +87,9 @@ export default function Home() {
           <div className="grid md:grid-cols-3 gap-8 mb-8">
             <div className="bg-white p-6 rounded-lg text-center shadow-sm">
               <div className="text-4xl mb-4">🌅</div>
-              <h3 className="text-xl font-semibold mb-3 text-red-800">Sveže svakog jutra</h3>
+              <h3 className="text-xl font-semibold bg-gradient-to-r from-[#3b0a0a] via-[#a83232] to-[#8c282a] bg-clip-text text-transparent drop-shadow mb-3 text-red-800">
+                Sveže svakog jutra
+              </h3>
               <p className="text-gray-600">
                 Svi obroci se spremaju ujutru istog dana kada se i dostavljaju
               </p>
@@ -89,7 +97,9 @@ export default function Home() {
             
             <div className="bg-white p-6 rounded-lg text-center shadow-sm">
               <div className="text-4xl mb-4">🧽</div>
-              <h3 className="text-xl font-semibold mb-3 text-red-800">Bez prljavog posudja</h3>
+              <h3 className="text-xl font-semibold bg-gradient-to-r from-[#3b0a0a] via-[#a83232] to-[#8c282a] bg-clip-text text-transparent drop-shadow mb-3 text-red-800">
+                Bez prljavog posudja
+              </h3>
               <p className="text-gray-600">
                 Činije koje se mogu podgrejati u mikrotalasnoj - nema pranja sudova
               </p>
@@ -97,7 +107,9 @@ export default function Home() {
             
             <div className="bg-white p-6 rounded-lg text-center shadow-sm">
               <div className="text-4xl mb-4">🎒</div>
-              <h3 className="text-xl font-semibold mb-3 text-red-800">Portabilnost</h3>
+              <h3 className="text-xl font-semibold bg-gradient-to-r from-[#3b0a0a] via-[#a83232] to-[#8c282a] bg-clip-text text-transparent drop-shadow mb-3 text-red-800">
+                Portabilnost
+              </h3>
               <p className="text-gray-600">
                 Uz escajg i činije koje možete poneti bilo gde sa sobom
               </p>
@@ -124,7 +136,7 @@ export default function Home() {
         </div>
         <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold bg-gradient-to-r from-[#3b0a0a] via-[#a83232] to-[#fff] bg-clip-text text-transparent drop-shadow-lg mb-4">
+            <h2 className="text-3xl font-bold bg-gradient-to-r from-[#3b0a0a] via-[#a83232] to-[#8c282a] bg-clip-text text-transparent drop-shadow-lg mb-4">
               Najčešća pitanja
             </h2>
             <p className="text-xl text-gray-600">

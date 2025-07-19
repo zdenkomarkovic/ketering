@@ -4,7 +4,7 @@ export default function AboutSection() {
   return (
     <div className="flex flex-col md:flex-row items-center md:gap-12 mb-12 text-center">
       <div className="flex-1">
-        <h2 className="text-3xl font-bold bg-gradient-to-r from-[#3b0a0a] via-[#a83232] to-[#fff] bg-clip-text text-transparent drop-shadow-lg mb-10">
+        <h2 className="text-3xl font-bold bg-gradient-to-r from-[#3b0a0a] via-[#a83232] to-[#8c282a] bg-clip-text text-transparent drop-shadow-lg mb-10">
           Naša Priča
         </h2>
         
@@ -19,7 +19,7 @@ export default function AboutSection() {
           se vašim zahtevima - dostavljamo obroke u unapred dogovoreno vreme i možemo da pokrijemo sve tri smene.
         </p>
 
-        <h3 className="text-2xl font-bold bg-gradient-to-r from-[#3b0a0a] via-[#a83232] to-[#fff] bg-clip-text text-transparent drop-shadow-lg mt-16 mb-8">
+        <h3 className="text-2xl font-bold bg-gradient-to-r from-[#3b0a0a] via-[#a83232] to-[#8c282a] bg-clip-text text-transparent drop-shadow-lg mt-16 mb-8">
           Naša Specijalnost
         </h3>
         
